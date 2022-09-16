@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Solution_4 {
-    public static char[] vowels = new char[]{'а', 'я', 'у', 'ю', 'и', 'ы', 'э', 'е', 'о', 'ё'};
+    /*public static char[] vowels = new char[]{'а', 'я', 'у', 'ю', 'и', 'ы', 'э', 'е', 'о', 'ё'};
 
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
@@ -46,5 +46,5 @@ public class Solution_4 {
             }
         }
         return false;
-    }
+    }*/
 }

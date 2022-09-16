@@ -1,7 +1,6 @@
 package Lecture_5;
 
 import java.util.*;
-import java.util.function.BiFunction;
 
 public class Solution_7 {
     public static void main(String[] args) {
