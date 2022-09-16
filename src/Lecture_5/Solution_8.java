@@ -11,7 +11,7 @@ public class Solution_8 {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         ArrayList<String> list = new ArrayList<>();
         String line = reader.readLine();
-        while (!line.isEmpty()) {
+        while (line != null && !line.isEmpty()) {
             list.add(line);
             line = reader.readLine();
         }
