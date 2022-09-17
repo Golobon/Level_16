@@ -6,13 +6,13 @@ public class ArraySorter {
             for (int j = array.length - 1; j > i; j--) {
                 if (!isNumber(array[i]) && !isNumber(array[j])) {
                     if (isGreaterThan(array[i], array[j])) {
-                        String str = array[i];
+                        String str1 = array[i];
                         array[i] = array[j];
                         array[j] = str;
                     }
                 } else if (isNumber(array[i]) && isNumber(array[j])) {
                         if (Integer.parseInt(array[j]) - Integer.parseInt(array[i])  >0) {
-                            String str = array[i];
+                            String str1 = array[i];
                             array[i] = array[j];
                             array[j] = str;
                         }
