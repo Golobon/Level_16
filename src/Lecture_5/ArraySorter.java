@@ -1,9 +1,5 @@
 package Lecture_5;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-
 public class ArraySorter {
     public void sort(String[] array) {
         for (int i = 0; i < array.length; i++) {
