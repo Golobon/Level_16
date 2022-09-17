@@ -8,13 +8,13 @@ public class ArraySorter {
                     if (isGreaterThan(array[i], array[j])) {
                         String str1 = array[i];
                         array[i] = array[j];
-                        array[j] = str;
+                        array[j] = str1;
                     }
                 } else if (isNumber(array[i]) && isNumber(array[j])) {
                         if (Integer.parseInt(array[j]) - Integer.parseInt(array[i])  >0) {
                             String str1 = array[i];
                             array[i] = array[j];
-                            array[j] = str;
+                            array[j] = str1;
                         }
                     }
                 }
