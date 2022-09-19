@@ -1,6 +1,5 @@
 package Lecture_5;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class Solution_3 {
